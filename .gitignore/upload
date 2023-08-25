@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>e-constructor</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>e-costructor</h1>
+		<nav>
+			<a href="#">home</a>
+			<a href="#">about</a>
+			<a href="#">contact</a>
+		</nav>
+	</header>
+	<main>
+		<section id="registration">
+			<h2>registration</h2>
+			<form action="/register" method="post">
+				<input type="text" name="name" placeholder="your name">
+				<input type="email" name="email" placeholder="your email">
+				<input type="password" name="password" placeholder="your password">
+				<input type="submit" value="register">
+			</form>
+		</section>
+		<section id="blockchain">
+			<h2>Blockchain technology</h2>
+			<p>All structural elements of your building will be stored in a blockchain, which is a secure and tamper proof database.This means the building specifications cannot be altered</p>
+		</section>
+		<section id="court documents">
+			<h2> court documents</h2>
+			<p>All court documents associated with your building will be verified before they are displayed on the website.This means that you can be sure that the documents are authentic and that they have not been tampered with</p>
+		</section>
+		<section id="title deed">
+			<h2>title deed </h2>
+			<P>The simulator feature allows you to calculate the dimensions of the materials for your costruction project and to grade them using your phone camera.This helps you to ensure that you are using the right materials for your project</P>
+		</section>
+	</main>
+	<footer>
+		&copy;2023 e-constructor
+	</footer>
+</body>
+</html>
